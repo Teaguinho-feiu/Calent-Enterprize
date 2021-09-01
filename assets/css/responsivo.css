@@ -1,0 +1,81 @@
+@media screen and (max-width: 1024px) {
+    .app-nosso-trabalho {
+        width: 40%;
+    }
+
+    .article {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rodape {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .espacamento {
+        display: none;
+    }
+
+    .container {
+        padding: 0 5%;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .subtitulo {
+        font-size: 2.5rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .article {
+        font-size: 1.5rem;
+    }
+
+    .cabecalho {
+        position:initial;
+
+        height: auto;
+    }
+    
+    .nav-bar {
+        padding-bottom: 1rem;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+    }
+
+    .nav-bar li {
+        padding: 1.25rem 0;
+        width: 80vw;
+
+        display: flex;
+        justify-content: center;
+
+        border-bottom: solid var(--cor-secundaria) 2px;
+    }
+
+    .nav-bar ul li:last-child {
+        border: none;
+    }
+
+    .img-animed {
+        display: none;
+    }
+
+    .app-nosso-trabalho {
+        width: 100%;
+    }
+
+    .contato .article {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calent Enterprise</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/variaveis-importacoes.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/titulo.css">
+    <link rel="stylesheet" href="assets/css/quem-somos.css">
+    <link rel="stylesheet" href="assets/css/nosso-trabalho.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+
+    <!-- Java Script -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/mains.js"></script>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+
+    <header class="cabecalho conteiner">
+        <nav class="nav-bar">
+            <ul>
+                <li><a onselectstart="return false" onclick="linkInterno('inicio')" class="link">Inicio</a></li>
+                <li><a onselectstart="return false" onclick="linkInterno('quemSomos')" class="link">Quem Somos</a></li>
+                <li><a onselectstart="return false" onclick="linkInterno('nossoTrabalho')" class="link">Nosso Trabalho</a></li>
+                <li><a onselectstart="return false" onclick="linkInterno('contato')" class="link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo -->
+
+    <main class="container">
+
+        <!-- Espaçamento -->
+
+        <div class="espacamento" style="margin-top: 10%;"></div>
+
+        <!-- Titulo -->
+
+        <section id="inicio" class="titulo-area section center">
+            <h1 class="titulo">Calent Enterprise</h1>
+            <p class="text">Soluções rápidas para seus problemas</p>
+        </section>
+
+        <!-- Seção Quem Somos -->
+
+        <section id="quemSomos" class="section center">
+            <h2 class="subtitulo">Quem Somos</h2>
+            <p class="text">Nós da Calent queremos que você resolva mais facilidade seus
+                problemas de seu dia a dia até os mais complexos</p>
+            <figure class="center img-animed">
+                <img id="img-calent" class="img-calent-escritorio" src="assets/img/escritorio.jpg"
+                    alt="Escritorio de Calent">
+                <p id="texto-img-calent" class="text" style="display: none;">Sede principal de Calent</p>
+            </figure>
+        </section>
+
+        <!-- Seção Nosso Trabalho -->
+
+        <section id="nossoTrabalho" class="section center">
+            <h2 class="subtitulo">Conheça nosso trabalho</h2>
+            <p class="text">Trabalhamos com softwares que agilizam seu trabalho</p>
+            <section class="nosso-trabalho">
+                <a class="app-nosso-trabalho" href="#">
+                    <article class="center">
+                        <img src="assets/img/word-pad-icon.png" alt="Word Pad Icon">
+                        <p class="text article">O Word Pad é um aplicativo de digitação de textos, com sistemas de
+                            margem, tamanho de fonte, correção de texto, entre outras características que lhe ajudaram a
+                            escrever seu trabalho da escola.</p>
+                    </article>
+                </a>
+                <a class="app-nosso-trabalho" href="#">
+                    <article class="center">
+                        <img src="assets/img/paint-icon.png" alt="Paint Icon">
+                        <p class="text article">O Paint é um manipulador e criador de imagens, nele você pode recortar,
+                            adicionar, modificar suas imagens, pintar, entre outros, assim podendo fazer suas obras de
+                            arte.</p>
+                    </article>
+                </a>
+                <a class="app-nosso-trabalho" href="#">
+                    <article class="center">
+                        <img src="assets/img/internet-explorer-icon.png" alt="Internet Explorer Icon">
+                        <p class="text article">O Internet Explorer é um navegador de internet extremamente rápido, não
+                            causa problemas ao desempenho de seu computador, navegue facilmente com ele.</p>
+                    </article>
+                </a>
+            </section>
+        </section>
+
+        <!-- Seção Entre em contato -->
+
+        <section id="contato" class="section center contato">
+            <h2 class="subtitulo">Entre em contato</h2>
+            <p class="text">Entre em contato com nossa equipe caso aja duvidas, podendo ser de qual maneira usar nossos softwares até sobre direitos de uso sobre ele.</p>
+            <p class="text article">Email: calent.enterprise@calent.com</p>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+
+    <footer class="rodape">
+        <p class="rodape-text">Pagina criada apenas para praticar, esta empresa é fictícia (eu acho), todos os programas apresentados a cima são pertencentes a © Microsoft</p>
+        <p class="rodape-text">Criado por Tiago Gabriel Düsman Hoepfner</p>
+    </footer>
+</body>
+
+</html>

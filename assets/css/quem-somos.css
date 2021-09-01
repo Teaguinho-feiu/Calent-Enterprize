@@ -1,0 +1,11 @@
+.img-calent-escritorio {
+    width: 25vw;
+    transition: all 500ms;
+
+    box-shadow: 0 0 1em rgb(25, 25, 25);
+}
+
+.img-calent-escritorio:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

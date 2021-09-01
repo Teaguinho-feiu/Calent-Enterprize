@@ -1,0 +1,38 @@
+.nosso-trabalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    width: 90vw;
+
+    margin-bottom: 2rem;
+}
+
+.app-nosso-trabalho {
+    width: 30%;
+    height: 65vh;
+
+    background-color: var(--background-color-2);
+    box-shadow: 0 0 1em rgb(25, 25, 25);
+
+    text-decoration: none;
+
+    padding: .75rem;
+    padding-top: 1rem;
+    border-radius: 1em;
+
+    transition: 500ms;
+
+    margin: .25rem;
+}
+
+.app-nosso-trabalho:hover {
+    background-color: #424242;
+}
+
+.app-nosso-trabalho img {
+    width: 45%;
+}

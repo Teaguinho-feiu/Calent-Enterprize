@@ -1,0 +1,9 @@
+@import url(reset.css);
+@import url(variaveis-importacoes.css);
+
+@import url(cabecalho/cabecalho.css);
+@import url(quem-somos/quem-somos.css);
+@import url(titulo/titulo.css);
+@import url(nosso-trabalho/nosso-trabalho.css);
+
+@import url(style.css);

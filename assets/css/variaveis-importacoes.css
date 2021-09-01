@@ -1,0 +1,17 @@
+/* Importações */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+/* Variáveis */
+
+:root {
+    --fonte-1: 'Nunito', sans-serif;
+    --fonte-2: 'Merriweather', serif;
+
+    --cor-principal: #3516ff;
+    --cor-secundaria: #a2a2a2;
+
+    --background-color-2: #353535;
+}
